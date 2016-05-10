@@ -6,7 +6,7 @@ import (
 )
 
 
-func TestNadaSeriesail(t *testing.T) {
+func TestNadaSeriesTail(t *testing.T) {
 
 	tests := []struct{
 		Slice    []struct{}
