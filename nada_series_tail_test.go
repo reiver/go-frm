@@ -83,7 +83,7 @@ func TestNadaSeriesail(t *testing.T) {
 			actual := tail.(NadaSeries)[seriesIndex]
 
 			if expected != actual {
-				t.Errorf("For test #%d and series item #%d, expected \"%f\", but actually got \"%f\".", testNumber, seriesIndex, expected, actual)
+				t.Errorf("For test #%d and series item #%d, expected \"%v\", but actually got \"%v\".", testNumber, seriesIndex, expected, actual)
 				continue
 			}
 		}
